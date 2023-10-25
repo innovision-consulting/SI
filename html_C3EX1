@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connected Cars</title>
+    <style>
+        /* Basic styles to center the content */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .image-container img {
+            max-width: 45%;  /* You can adjust this value */
+            height: auto;
+        }
+
+        footer {
+            font-size: 0.8em;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <!-- Video Embed -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/bSF00BEEWTw?si=tL68Bh8UJ-sQ1DtV" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <!-- Subtitle -->
+        <h2>An Iot-enabled Innovation</h2>
+
+        <!-- Body of Text -->
+        <p>
+            Connected cars represent a remarkable service innovation, seamlessly weaving cutting-edge technology into our driving experience, offering a mix of advantages and challenges. These smart vehicles utilize high-tech capabilities, like IoT sensors and real-time data analysis, to elevate our time on the road. The benefits are substantial, from safer journeys with real-time traffic updates to more efficient fuel consumption and a reduced environmental footprint. However, these advancements also give rise to concerns about data privacy and cybersecurity, necessitating strong institutional frameworks to protect personal information and mitigate potential harms, such as cyber threats and data misuse. As connected cars continue to revolutionize the way we travel, it's crucial for innovators to strike a careful balance between maximizing the perks and addressing these emerging risks.
+        </p>
+
+        <!-- Images -->
+        <div class="image-container">
+            <img src="https://issip.org/wp-content/uploads/2023/10/d3f44b41-33d4-47c5-949a-9d988fa3f630.jpg" alt="Description of Image 1">
+            <img src="https://issip.org/wp-content/uploads/2023/10/Firefly-Capture-an-image-of-a-shadowy-figure-in-a-hoodie-hunched-over-a-laptop-in-a-dimly-lit-room-1.jpg" alt="Description of Image 2">
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <h3>Citations</h3>
+
+            <div class="citation">
+                <strong>Video:</strong> Tool - invideo AI<br>
+                <strong>Prompt:</strong> "
+                Can you create a short video script that is less than 1 minute and explains connected cars as a service innovation along with harms and benefits"<br>
+                <strong>Date Generated:</strong> 10/19/2023
+            </div>
+            <hr>
+
+            <div class="citation">
+                <strong>Essay:</strong> Tool - ChatGPT<br>
+                <strong>Prompt:</strong> "Act as a professional copywriter that specializes in SEO and keyword implementation and generate a four sentence paragraph about connected cars as a service innovation. Be sure to include harms and benefits"<br>
+                <strong>Date Generated:</strong> 10/19/2023
+            </div>
+            <hr>
+
+            <div class="citation">
+                <strong>Image 1:</strong> Tool - Bing Image Creator powered by DALL·E 3<br>
+                <strong>Prompt:</strong> "Show real time traffic updates as result of a car being connected to the internet"<br>
+                <strong>Date Generated:</strong> 10/21/2023
+            </div>
+            <hr>
+
+            <div class="citation">
+                <strong>Image 2:</strong> Tool - Adobe Firefly<br>
+                <strong>Prompt:</strong> "Capture an image of a shadowy figure in a hoodie, hunched over a laptop in a dimly lit room. The figure's face should be obscured, but their intent should be clear: they are attempting to hack into a connected car's system"<br>
+                <strong>Date Generated:</strong> 10/21/2023
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
